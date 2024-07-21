@@ -13,17 +13,6 @@ on:
     branches:
       - master
   workflow_dispatch:
-    inputs:
-      description: 'Log level'
-      required: true
-      default: 'warning'
-      type: choice
-      options:
-        - info
-        - warning
-        - debug
-    
-  
 #  schedule:
 #    - cron: 0 8 * * 5
 # watch:
